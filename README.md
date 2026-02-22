@@ -1,2 +1,2 @@
 # git_commands
-All Git related commands 
+All Git related commands are listed 
