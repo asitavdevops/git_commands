@@ -9,4 +9,5 @@ git pull origin main - To pull remote changes first to your local
 git push origin main --rebase - It will pull remote changes to local , apply remote changes , reapply local commits on top
 'Use of git log and git diff and deployand biring back to previous version'
 git logs
-git reset --hard <Version1-commit-id>
+git reset --hard <Version1-commit-id> - it will be applicable when its in working area or staging area
+
