@@ -18,3 +18,52 @@ OR	-> git checkout -b branch-name - Today in main branch what ever code is there
 
 2) Switch between branch 
 Ans	-> git checkout main or git checkout feature
+
+4) git branch - list branch or create a new branch -> git branch feature
+
+5) git checkout - switch between branch or restore files  -> git checkout rebase-branch
+
+6) git switch - Switches branches (alternative to git checkout) -> git switch main
+
+7) git merge - it combines two branch without a liner commit -> git merge feature
+
+8) git rebase - It combines two branch with liner commit -> git rebase feature
+
+9) git cherry-pick - It is used to combine two branch if only one or commits with the commit id -> git cherry-pic <commit-id-feature-branch>
+
+10) git pull - Fetches and merges changes from a remote repo to local -> git pull origin main
+
+11) git fetch - Download changes from remote repo without mergeing -> git fetch origin
+
+12) git stash - Temporary saves chages not yet commited -> git stash
+
+13) git stash pop - Applies stashed changes and remove them from the stash list -> git stash pop
+
+14)git stash list - List all stashes -> git stash list
+
+15) git clean - removes untracked files from the Working Directory -> git clean -f
+
+16) git tag - Creates a tag for a specific commit -> git tag v1.0 -m "version v1"
+
+17) git tag -d - delete a tag --> git tag -d version v1
+
+18) git push -tags - push tags to remote repository -> git push origin --tags
+
+19) git bisect - Finds the commit that introduced a bug -> git bisect start
+
+20) git blame - Shows which commit and author modified each line of a file 
+
+21) git submodule - Manage external Module as Submiodule -> git submodule add https://github.com/Kubernates/Kubernates
+
+22) git archive - Create a Archive for a repository files -> git archive --format-zip HEAD > archive.zip
+
+23) git gc - Cleans up unnecessary files and Optimize the repository -> git gc
+
+24) gh auth login - Logs into GitHub via the command line -> git auth login
+
+25) gh repo clone - Clone a GitHub Repo -> gh repo clone user/repo
+
+26) gh issue list - List Issue in GitHub repository -> gh issue list
+
+27) gh repo create - Create a new Github Repo ->  gh repo create my_repo
+
