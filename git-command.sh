@@ -67,3 +67,5 @@ Ans	-> git checkout main or git checkout feature
 
 27) gh repo create - Create a new Github Repo ->  gh repo create my_repo
 
+3)if you are in main and want to check the logs of another branch 
+Ans	-> git log --oneline feature-branch
