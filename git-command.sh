@@ -69,3 +69,14 @@ Ans	-> git checkout main or git checkout feature
 
 3)if you are in main and want to check the logs of another branch 
 Ans	-> git log --oneline feature-branch
+QA) git init --> It creates a new repository in the current directory along with .git directory which keep the track of all branch related activity.
+
+QB) git clone --> download the remote repository to your local Mechin
+
+QC) git config --> configure user setting such as name and email.
+		--> git config --global user.name "Your Name" && git config --global user.email "asitavsyn@gmail.com"
+QD) git show --> Display detailed information about a specific commit
+	     --> git show commit-id
+QE) git reset --> Unset changes or reset commits
+
+QF) git checkout 
