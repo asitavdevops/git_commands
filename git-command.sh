@@ -10,4 +10,6 @@ git push origin main --rebase - It will pull remote changes to local , apply rem
 'Use of git log and git diff and deployand biring back to previous version'
 git logs
 git reset --hard <Version1-commit-id> - it will be applicable when its in working area or staging area
+https://github.com/kubernetes/kubernetes - check for branching statergies
+'Git Interview Q/A'
 
