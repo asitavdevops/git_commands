@@ -7,3 +7,6 @@ git remote add origin https://github.com/asitavdevops/git_commands.git - To Add 
 git remote -v - it will display the origin and main url
 git pull origin main - To pull remote changes first to your local 
 git push origin main --rebase - It will pull remote changes to local , apply remote changes , reapply local commits on top
+'Use of git log and git diff and deployand biring back to previous version'
+git logs
+git reset --hard <Version1-commit-id>
