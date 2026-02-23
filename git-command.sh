@@ -78,5 +78,4 @@ QC) git config --> configure user setting such as name and email.
 QD) git show --> Display detailed information about a specific commit
 	     --> git show commit-id
 QE) git reset --> Unset changes or reset commits
-
-QF) git checkout 
+ 
